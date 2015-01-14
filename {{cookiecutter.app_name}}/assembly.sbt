@@ -16,7 +16,6 @@ mergeStrategy in assembly <<= (mergeStrategy in assembly) { (old) =>
     case PathList("plugin.properties", xs @ _*) => MergeStrategy.last
     case PathList("org", "slf4j", xs @ _*) => MergeStrategy.last
     case PathList("org", "mockito", xs @ _*) => MergeStrategy.last
-    case PathList("org", "cyberneko", "html", _ *) => MergeStrategy.first
     case x => old(x)
   }
 }

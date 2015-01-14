@@ -1,10 +1,16 @@
 name := "{{cookiecutter.projectname}}"
 
-version := "0.1.0"
+version := "{{cookiecutter.version}}"
 
-scalaVersion := "2.10.4"
+scalaVersion := "{{cookiecutter.scala_version}}"
 
 description := "{{cookiecutter.project_short_description}}"
+
+organization := "{{cookiecutter.org_package}}"
+
+organizationName := "{{cookiecutter.org_name}}"
+
+organizationHomepage := "{{cookiecutter.org_website}}"
 
 libraryDependencies ++= Seq(
 "org.apache.spark" %% "spark-core" % "1.1.0" % "provided",
