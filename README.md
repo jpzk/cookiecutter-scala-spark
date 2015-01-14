@@ -1,10 +1,12 @@
 # cookiecutter-scala-spark
 
+The template includes a build.sbt, an assembly.sbt and scripts to submit the spark application to a YARN cluster (run the scripts in top-level folder like `/bin/run-local.sh`. Feel free to fork and to add other scripts. 
+
+## Generate a Project Skeleton
+
 This is a cookiecutter template for Scala Spark applications. You need to install cookiecutter first. 
 
   <pre># pip install cookiecutter</pre>
-
-# Generate a Project Skeleton
 
 <pre>
   $ cookiecutter https://github.com/jpzk/cookiecutter-scala-spark.git
