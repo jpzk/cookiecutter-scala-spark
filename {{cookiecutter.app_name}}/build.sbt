@@ -10,7 +10,7 @@ organization := "{{cookiecutter.org_package}}"
 
 organizationName := "{{cookiecutter.org_name}}"
 
-organizationHomepage := "{{cookiecutter.org_website}}"
+homepage := {{cookiecutter.org_website}}
 
 libraryDependencies ++= Seq(
 "org.apache.spark" %% "spark-core" % "1.1.0" % "provided",
