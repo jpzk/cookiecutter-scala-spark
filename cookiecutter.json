@@ -7,5 +7,5 @@
   "scala_version":"2.10.4",
   "org_package":"org.something",
   "org_name":"Organization",
-  "org_website":"Some(url(\"http://www.somesite.com\"))"
+  "org_website":"http://www.somesite.com"
 }
