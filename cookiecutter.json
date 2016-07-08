@@ -3,6 +3,7 @@
   "app_name": "sparkapp",
   "project_short_description":"A Scala Spark Application",
   "jarfile":"sparkapp.jar",
+  "entryclass":"org.something.SparkApp",
   "version":"0.0.1",
   "scala_version":"2.10.4",
   "org_package":"org.something",
